@@ -95,6 +95,8 @@ public class RoomActivity extends AppCompatActivity implements QNRTCEventListene
         // 设置 QNRTC Log 输出等级
         setting.setLogLevel(QNLogLevel.INFO);
 
+
+        //Q1:QNRTCEventListener和QNClientEventListener的区别是什么？
         // 初始化 QNRTC
         QNRTC.init(getApplicationContext(), setting, this);
 
